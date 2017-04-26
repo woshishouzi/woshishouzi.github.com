@@ -1,0 +1,353 @@
+.ui-head{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 690px;
+    height: 100px;
+}
+.ui-head-title{
+   display: flex;
+   align-items: flex-start;
+}
+.ui-head-title-road{
+    width: 80px;
+    height: 22px;
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: bold;
+    background: linear-gradient(rgba(47,148,206,1),rgba(29,137,197,1));
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ui-head-title-time{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background: linear-gradient(rgba(252,125,24,1),rgba(255,64,2,1));
+}
+.ui-head-body{
+    width: 686px;
+    height: 72px;
+    background-color: rgba(252,252,252,1);
+    border-top:5px solid rgba(29,137,197,1);
+    border-left:1px solid rgba(201,203,203,1);
+    border-right: 1px solid rgba(201,203,203,1);
+    border-bottom: 1px solid rgba(201,203,203,1);
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.ui-head-body-line1{
+    width: 686px;
+    height: 24px;
+}
+.ui-head-body-line1-time{
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgba(207,0,0,1);
+    font-weight: bold;
+}
+.ui-head-body-line1-money{
+    font-size: 12px;
+    color:rgba(207,0,0,1);
+    font-weight: bold;
+}
+.ui-head-body-line1-money:before{
+    margin-left: 20px;
+    content: "総額";
+    color: rgba(68,68,68,1);
+    font-weight: normal;
+}
+.ui-head-body-line2{
+    width: 686px;
+    height: 24px;
+}
+.ui-head-body-line2-need{
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgba(207,0,0,1);
+    font-weight: bold;
+}
+.ui-head-body-line2-need:before{
+    margin-left: 0px;
+    font-size: 12px;
+    content: "所要时间";
+    color: rgba(68,68,68,1);
+    font-weight: normal;
+}
+.ui-head-body-line2-tot{
+    margin-left: 10px;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+.ui-head-body-line2-tot:before{
+    margin-left: 24px;
+    font-size: 12px;
+    content: "乘车时间";
+    color: rgba(68,68,68,1);
+    font-weight: normal;
+}
+.ui-head-body-line2-times{
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgba(207,0,0,1);
+    font-weight: bold;
+}
+.ui-head-body-line2-times:before{
+    margin-left: 24px;
+    font-size: 12px;
+    content: "乗換";
+    color: rgba(68,68,68,1);
+    font-weight: normal;
+}
+.ui-head-body-line2-distance{
+    margin-left: 10px;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+.ui-head-body-line2-distance:before{
+    margin-left: 24px;
+    font-size: 12px;
+    content: "距离";
+    color: rgba(68,68,68,1);
+    font-weight: normal;
+}
+.ui-head-body-line3{
+    width: 686px;
+    height: 24px;
+    font-size:12px;
+    background-color: rgba(255,251,222,1);
+    border-top:1px solid rgba(203,203,203,1);
+    border-bottom: 1px solid rgba(203,203,203,1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ui-head-body-lines-item{
+    margin-right: 10px;
+}
+.ui-body{
+    margin-left: 400px;
+    width: 690px;
+    height: 210px;
+}
+.ui-body-head{
+    margin-top: 5px;
+    width: 690px;
+    height:16px;
+    /*background-color: rgba(206,220,232,1);*/
+    display: flex;
+}
+.ui-body-head-road{
+    background-color: rgba(206,220,232,1);
+    text-align: center;
+    font-size: 12px;
+    color: rgba(96,122,144,1);
+    flex:55%;
+    border-right: 1px solid white;
+}
+.ui-body-head-num{
+    background-color: rgba(206,220,232,1);
+    text-align: center;
+    font-size: 12px;
+    color: rgba(96,122,144,1);
+    flex:5%;
+    border-right: 1px solid white;
+}
+.ui-body-head-money{
+    background-color: rgba(206,220,232,1);
+    text-align: center;
+    font-size: 12px;
+    color: rgba(96,122,144,1);
+    flex:5%;
+    border-right: 1px solid white;
+}
+.ui-body-head-seat{
+    background-color: rgba(206,220,232,1);
+    text-align: center;
+    font-size: 12px;
+    color: rgba(96,122,144,1);
+    flex:5%;
+    border-right: 1px solid white;
+}
+.ui-body-head-distance{
+    background-color: rgba(206,220,232,1);
+    text-align: center;
+    font-size: 12px;
+    color: rgba(96,122,144,1);
+    flex:5%;
+}
+.ui-body-title1{
+    background-color:rgba(242,242,242,1);
+    margin-top: 1px;
+    width: 688px;
+    height: 40px;
+    border:1px solid rgba(203,203,203,1);
+    border-style: none solid solid solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ui-body-title1-cloud{
+    margin-left: 78px;
+    width: 18px;
+    height: 14px;
+    background-image: url("cloud.png");
+}
+.ui-body-title2-time1{
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 12px;
+}
+.ui-body-title2-time2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 12px;
+}
+.ui-body-title1-square{
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  background: linear-gradient(rgba(66,178,228,1),rgba(16,129,209,1));
+}
+.ui-body-title1-square2{
+  margin-left: 35px;
+  width: 8px;
+  height: 8px;
+  border:2px solid rgba(66,178,228,1);
+}
+.ui-body-title1-road{
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.ui-body-title1-num{
+    font-size: 12px;
+    margin-left: 240px;
+}
+.ui-body-title1-num2{
+    font-size: 12px;
+    margin-left: 262px;
+}
+.ui-body-title1-click1{
+    font-size: 12px;
+    margin-left: 60px;
+}
+.ui-body-title1-click2{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.ui-body-title1-click3{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.ui-body-title1-click4{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.ui-body-item1{
+    width: 690px;
+    height:40px;
+    border-bottom: 1px solid rgba(203,203,203,1);
+    /*background-color: rgba(206,220,232,1);*/
+    display: flex;
+}
+.ui-body-item2{
+    width: 690px;
+    height:36px;
+    border-bottom: 1px solid rgba(203,203,203,1);
+    /*background-color: rgba(206,220,232,1);*/
+    display: flex;
+}
+.ui-body-item1-road{
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    flex:55%;
+    border-right: 1px solid rgba(203,203,203,1);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.ui-body-item1-road-time{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ui-body-item1-road-line{
+    height: 40px;
+    width: 7px;
+    background-image: url(line.png);
+    margin-right: 20px;
+}
+.ui-body-item1-road-line2{
+    height: 36px;
+    width: 7px;
+    background-image: url(line2.png);
+    margin-right: 20px;
+}
+.ui-body-item1-road-car1{
+    height:14px;
+    width: 40px;
+    background-image: url(car1.png);
+    margin-right: 20px;
+}
+.ui-body-item1-road-car2{
+    height:14px;
+    width: 40px;
+    background-image: url(car2.png);
+    margin-right: 20px;
+}
+.ui-body-item1-num{
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    flex:5%;
+    border-right: 1px solid rgba(203,203,203,1);
+}
+.ui-body-item1-money{
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    flex:5%;
+    border-right: 1px solid rgba(203,203,203,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.ui-body-item1-seat{
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    flex:5%;
+    border-right: 1px solid rgba(203,203,203,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ui-body-item1-distance{
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    flex:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ui-body-title1-click0{
+    font-size: 12px;
+    margin-left: 100px;
+}
