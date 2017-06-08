@@ -1,0 +1,129 @@
+@charset "UTF-8";
+.ui-slick{
+	margin:5% 10% 0 10%;
+	width: 200px;
+}
+.ui-slick-main img{
+	width:100%;
+	height:auto;
+}
+.ui-slick-main img:hover{
+	opacity: 0.4;
+	transition: all 0.3s linear;
+}
+.explain{
+	display: flex;
+	justify-content: center;
+	margin-left:10%;
+	border:solid 1px black;
+}
+
+.ui-head-search-area{
+	width: 20%;
+}
+.ui-head-search-order{
+	margin-top: 20px;
+	background-color: rgb(243,243,243);
+	height: 32px;
+	width: 30%;
+	border-radius: 2px;
+	margin-left: 0.5%;
+	 appearance: none;  
+    -moz-appearance: none;  
+    -webkit-appearance: none;  
+    text-indent:10%;
+}
+b {  
+    border-color: rgb(0,152,206) rgb(243,243,243) rgb(243,243,243);  
+    border-style: solid;  
+    border-width: 5px;  
+    position: absolute;  
+    margin-left: -1%; 
+    margin-top: 34px; 
+}
+.ui-head-thirdline{
+	width: 70%;
+	height: 40px;
+	background-color: rgb(42,42,106);
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 30px;
+}
+.ui-head-thirdline-font1{
+	color: rgb(139,139,177);
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 3.5%;
+}
+.ui-head-thirdline-block{
+	display: block;
+	width: 6.5%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.ui-head-thirdline a:link{
+	color: white;
+	font-size: 13.4px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.ui-head-thirdline a:visited{
+	color: white;
+	font-size: 13.4px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.ui-head-thirdline a:hover{
+	color: white;
+	font-size: 13.4px;
+	text-decoration:none;
+	background-color: rgb(25,86,146);
+	font-weight: bold;
+	transition: background-color 0.3s linear;
+}
+.ui-head-thirdline a:active{
+	color:white;
+	font-size: 13.4px;
+	text-decoration: none;
+	background-color: rgb(25,86,146);
+	font-weight: bold;
+}
+
+.ui-z-1-item{
+	width: 80%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ui-z-1-item-out{
+	width: 40%;
+	height: 500px;
+	display: flex;
+	border: 1px solid black;
+	justify-content: center;
+	align-items: center;
+}
+.ui-z-2-item{
+	width: 60%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ui-z-2-item-out{
+	margin-top: 20px;
+	width: 40%;
+	height: 200px;
+	display: flex;
+	border: 1px solid black;
+	justify-content: center;
+	align-items: center;
+}
+.ui-z-1{
+	width: 100%;
+	display: flex;
+}
